@@ -1,0 +1,21 @@
+.place__title {
+    max-width: 460px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.06;
+ 
+    color: #FFFFFF;
+
+    align-self: end;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 48px;
+    padding-top: 80px;
+}
+
+.place__title :nth-child(1n) {
+    padding-top: 0px;
+}
