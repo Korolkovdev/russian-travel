@@ -1,6 +1,7 @@
 @import url(../blocks/);
 
 @import url(../vendor/normalize.css);
+@import url(../vendor/font.css);
 
 @import url(../blocks/page/page.css);
 
@@ -8,6 +9,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_selected/header__lang-link_selected.css);
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
@@ -48,3 +50,5 @@
 @import url(../blocks/footer/__link-item/footer__link-item.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__container/footer__container.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');

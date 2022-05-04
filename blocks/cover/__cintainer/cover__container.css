@@ -30,17 +30,20 @@
 @media screen and (max-width: 1279px) {
     .cover__container {
         min-height: 640px;
+        min-width: 1024px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .cover__container {
         min-height: 480px;
+        min-width: 768px;
     }
 }
 
 @media screen and (max-width: 787px) {
     .cover__container {
         min-height: 200px;
+        min-width: 320px;
     }
 }

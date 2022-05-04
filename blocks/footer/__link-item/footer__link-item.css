@@ -5,8 +5,46 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.12;
+padding-right: 18px;
+text-decoration: none;
 
 color: #FFFFFF;
 
 list-style-type: none;
 }
+
+.footer__link-item:nth-child(5n) {
+    padding-right: 0px;
+}
+
+.footer__link-item:hover {
+    opacity: 0.8;
+    text-decoration-line: underline;
+}
+
+@media screen and (max-width: 1279px) {
+    .footer__link-item  { 
+        
+    }
+} 
+
+@media screen and (max-width: 1023px) {
+    .footer__link-item  {
+        
+        
+    }
+} 
+
+@media screen and (max-width: 767px) {
+    .footer__link-item  {
+        font-size: 24px;
+        line-height: 1;
+        padding-bottom: 32px;
+        padding-right: 0px;
+    }
+
+        .footer__link-item:nth-child(5n) {
+            padding-bottom: 0px;
+        }
+} 
+

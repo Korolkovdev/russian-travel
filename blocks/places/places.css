@@ -1,4 +1,21 @@
 .places {
     grid-auto-flow: column;
-
+    padding: 92px 0px 92px;
 }
+
+@media screen and (max-width: 1279px) {
+    .places  { 
+    }
+} 
+
+@media screen and (max-width: 1023px) {
+    .places  {
+        padding: 88px 0px 90px;
+    }
+} 
+
+@media screen and (max-width: 767px) {
+    .places  {
+        padding: 64px 0px 66px;
+    }
+} 
