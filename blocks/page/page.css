@@ -1,15 +1,14 @@
 .page {
     background-color: #2A2C2F;
-    background: #2A2C2F;
     margin: 0px;
     padding: 0px;
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
     -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
 }
